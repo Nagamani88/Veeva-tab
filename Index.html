@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+           <!-- background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://cdn.sanity.io/images/k34k3zzn/production/a7d0237094de8121e0139aa9d8f357a9fb2f4fd7-620x429.png?w=620&h=429&auto=format');--> /* Replace 'your-image.jpg' with the actual image path */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end; /* Aligns the container near the bottom */
+            padding-bottom: 150px; /* Pushes the container upwards */
+        }
+
+        .search-container {
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 500px;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #f39c12;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+		<!-- <img src="https://mma.prnewswire.com/media/1488285/4017022/Veeva_Systems_Logo.jpg?p=twitter" alt="Logo"> -->
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+    </div>
+</body>
+</html>
